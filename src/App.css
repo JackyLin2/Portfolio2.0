@@ -33,9 +33,8 @@
 
 .navbar-brand{
   font-family: "Ubunty";
-  font-weight: bold;
-  display: inline-block;
-  font-size: 3.25rem;
+  font-weight: bolder;
+  font-size: 50%;
 }
 
 .nav-link{
@@ -46,4 +45,32 @@
 
 /* About Component */
 
+#about-container{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+} 
 
+
+.about-me{
+  text-align: left;
+  padding-bottom: 2% ;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.about-paragrah{
+  font-family: "Montserrat";
+  line-height: 2;
+  padding-right: 35%;
+}
+
+.profile-picture{
+  border-radius: 100%;
+  width: 30%;
+  float: right;
+}
+
+.knowledge-section{
+  text-align: center;
+}
