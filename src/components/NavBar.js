@@ -8,21 +8,21 @@ class NavBar extends React.Component {
     render() {
         return (
             <div id="nav-container">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand" href="#top-container">JL</a>
+                <nav className="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top">
+                    <a className="navbar-brand" href="#top-container" >JL</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#about-container">About </a>
+                                <a className="nav-link" href="#About-Component">About </a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Projects</a>
+                                <a className="nav-link" href="#project-container">Projects</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="#"> Experience</a>
+                                <a className="nav-link" href="#experience-container"> Experience</a>
                             </li>
                             <li className="nav-item active">
                                 <a className="nav-link" href="#"> Contact</a>
