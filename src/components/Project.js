@@ -5,18 +5,18 @@ class Project extends React.Component {
     render() {
         return (
             <div id="project-container">
-                <h1 className="project-header">Projects</h1>
+                <h3 className="project-header">Projects</h3>
                 <div className="project-section">
                     <div id="project-slide" className="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
                         <div className="carousel-inner">
                             <div className="carousel-item active container-fluid">
-                                <h1>Coming Soon</h1>
+                                <h3>Coming Soon</h3>
                             </div>
                             <div className="carousel-item">
-                                <h1>Coming Soon</h1>
+                                <h3>Coming Soon</h3>
                             </div>
                             <div className="carousel-item">
-                                <h1>Coming Soon</h1>
+                                <h3>Coming Soon</h3>
                             </div>
                         </div>
                         <a className="carousel-button carousel-control-prev" href="#project-slide" role="button" data-bs-slide="prev">

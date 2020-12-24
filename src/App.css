@@ -91,7 +91,7 @@
 
 
 .icon{
-  padding: 0% 10%;
+  padding: 0% 5% 2%
 }
 
 /* Project */
@@ -99,6 +99,7 @@
 #project-container{
   background-color: #394867;
   color: white;
+  padding: 330px;
 }
 
 .project-header{
@@ -121,8 +122,11 @@
 
 /* Experience */
 
+/* #experience-container{
+  padding: 420px
+} */
+
 .Experience-Header{
-  padding-top: 2% ;
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;

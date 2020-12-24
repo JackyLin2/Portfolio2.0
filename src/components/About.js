@@ -17,13 +17,13 @@ class About extends React.Component {
                 <div className="knowledge-section">
                     <h3 className="knowledge-header" > Knowledge In:  </h3>
                  
-                    <i className="icon fab fa-js-square fa-5x"> </i>
-                    <i className="icon fab fa-react fa-5x"></i>
-                    <i className="icon fab fa-node-js fa-5x"></i>
-                    <i className="icon fab fa-html5 fa-5x"></i>
-                    <i className="icon fab fa-css3-alt fa-5x"></i>
-                    <i className="icon fab fa-bootstrap fa-5x"></i>
-                    <i className="icon fab fa-github fa-5x"></i>
+                    <i className="icon fab fa-js-square fa-5x">  <span style={{ fontSize:"25px" }}>  Javascript </span>    </i>
+                    <i className="icon fab fa-react fa-5x">  <span style={{ fontSize:"25px" }}>  React </span></i>
+                    <i className="icon fab fa-node-js fa-5x">  <span style={{ fontSize:"25px" }}>  NodeJS </span></i>
+                    <i className="icon fab fa-html5 fa-5x">  <span style={{ fontSize:"25px" }}>  HTML5 </span></i>
+                    <i className="icon fab fa-css3-alt fa-5x">  <span style={{ fontSize:"25px" }}>  CSS3 </span></i>
+                    <i className="icon fab fa-bootstrap fa-5x">  <span style={{ fontSize:"25px" }}>  BootStrap </span></i>
+                    <i className="icon fab fa-github fa-5x">  <span style={{ fontSize:"25px" }}>  Github </span></i>
                    
              
                 </div>
