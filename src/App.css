@@ -1,22 +1,20 @@
-
 /* Header */
-.name{
+.name {
   font-family: 'Parisienne', cursive;
   font-size: 5.625rem;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-weight: normal;
   text-align: center;
 }
 
-.position{
+.position {
   font-family: 'Cinzel', serif;
   padding-bottom: 10px;
   text-align: center;
   font-size: 2.5rem;
 }
 
-#top-container{
-  position: relative;
+#top-container {
   padding: 380px;
   background-color: #364f6b;
   color: white;
@@ -24,21 +22,22 @@
 
 /* NavBar */
 
-.navbar{
+.navbar {
+  font-family: "Montserrat";
   padding-bottom: 0 0 4.5rem;
   position: sticky;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubunty";
-  
+
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
@@ -46,88 +45,107 @@
 
 /* About Component */
 
-#About-Component{
-  padding: 0px 0px 100px;
+#About-Component {
+ 
 }
 
-#about-container{
+#about-container {
   width: 60%;
   margin: 80px auto 100px auto;
   text-align: left;
-} 
+}
 
 
-.about-me{
+.about-me {
   text-align: left;
-  padding-bottom: 2% ;
+  padding: 70px 0px 30px;
   font-family: "Montserrat";
   font-weight: bold;
 }
 
-.about-paragrah{
+.about-paragrah {
   font-family: "Montserrat";
   line-height: 2;
   padding-right: 35%;
 }
 
-.profile-picture{
-  border-radius: 100%;
+.profile-picture {
+  border-radius: 50%;
   width: 30%;
   float: right;
+  padding-top: 6%;
 }
 
-.knowledge-header{
-  padding-bottom: 2% ;
+.knowledge-header {
+  padding-bottom: 2%;
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
 }
 
-.knowledge-section{
+.knowledge-section {
   padding-top: 100px;
   text-align: center;
   font-family: "Montserrat";
 }
 
 
-.icon{
+.icon {
   padding: 0% 5% 2%
 }
 
 /* Project */
 
-#project-container{
+#project-container {
   background-color: #394867;
   color: white;
   padding: 330px;
 }
 
-.project-header{
+.project-header {
   font-family: "Montserrat";
   text-align: center;
   font-weight: bold;
   padding-top: 2%;
 }
 
-/* .project-section{
-  text-align: center;
-  padding: 300px;
-} */
 
-
-.carousel-item{
+.carousel-item {
   text-align: center;
-   padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 /* Experience */
 
-/* #experience-container{
-  padding: 420px
-} */
+#experience-container {
+  height: 100vh;
 
-.Experience-Header{
+}
+
+.education-section {
+
+  
+}
+
+.Experience-Header {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+
+}
+
+
+
+/* Contact */
+
+#Contact-container {
+  height: 50vh;
+}
+
+.Contact-Header {
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
+  padding-top: 5%;
 }

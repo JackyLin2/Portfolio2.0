@@ -8,7 +8,9 @@ class Experience extends React.Component {
 
        return (
           <div id="experience-container">
-                <h3 className="Experience-Header"> Experience </h3>
+               <div className="education-section"> 
+                     <h3 className="Experience-Header"> Education</h3>
+               </div>
           </div>
        );
     }

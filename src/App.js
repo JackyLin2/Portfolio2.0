@@ -4,6 +4,7 @@ import About from './components/About'
 import NavBar from './components/NavBar'
 import Project from './components/Project'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <About/>
         <Project/>
         <Experience/>
+        <Contact/>
     </div>
   );
 }
