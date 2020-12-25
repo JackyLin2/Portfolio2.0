@@ -5,7 +5,7 @@ class Project extends React.Component {
     render() {
         return (
             <div id="project-container">
-                <h3 className="project-header">Projects</h3>
+                <h3 className="project-header">PROJECTS</h3>
                 <div className="project-section">
                     <div id="project-slide" className="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
                         <div className="carousel-inner">

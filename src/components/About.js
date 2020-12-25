@@ -15,7 +15,7 @@ class About extends React.Component {
                 </div>
                 
                 <div className="knowledge-section">
-                    <h3 className="knowledge-header" > Knowledge In:  </h3>
+                    <h3 className="knowledge-header" > KNOWLEDGE IN:  </h3>
                  
                     <i className="icon fab fa-js-square fa-5x">  <span style={{ fontSize:"25px" }}>  Javascript </span>    </i>
                     <i className="icon fab fa-react fa-5x">  <span style={{ fontSize:"25px" }}>  React </span></i>

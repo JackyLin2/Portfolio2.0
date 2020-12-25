@@ -91,7 +91,8 @@
 
 
 .icon {
-  padding: 0% 5% 2%
+  padding: 0% 5% 2%;
+
 }
 
 /* Project */
@@ -119,33 +120,92 @@
 
 #experience-container {
   height: 100vh;
-
 }
 
-.education-section {
+#the-list-here{
+  text-align: center;
+  padding: 70px;
+}
 
+.education-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 630%;
+  font-weight: bolder;
+  margin: 0px 0px 3%;
+  color: #9ba4b4;
+  line-height: 0.78;
+  text-indent: -7px;
   
 }
 
-.Experience-Header {
-  font-family: "Montserrat";
-  font-weight: bold;
-  text-align: left;
-  padding-left: 50px;
-
+.line-under {
+  background-color:#9ba4b4;
+  height: 5px;
+  width: 29.375%;
+  margin: 0 auto
 }
 
 
+#the-list-here p{
+  font-size: 230%;
+  color: #9ba4b4;
+  margin: 2% 0px 0px;
+  line-height: 1.875;
+   
+}
+
+.school-list{
+  margin: 20px ;
+  line-height: 1.875;
+  padding: 0px;
+  line-height: 2;
+  color: #9ba4b4;
+  font-family: "Montserrat";
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+
+.experience-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 630%;
+  font-weight: bolder;
+  margin: 50px 0px 3%;
+  color:  #394867;
+  line-height: 0.78;
+  text-indent: -7px;
+}
+
+
+.green{
+  background: #394867;
+}
+
+.experience-list{
+  margin: 20px ;
+  line-height: 1.875;
+  padding: 0px;
+  line-height: 2;
+  font-family: "Montserrat";
+  list-style-type: none;
+  color: #394867;
+  font-size: 1.25rem;
+}
+
+.btn:hover{
+  background-color: black;
+}
 
 /* Contact */
 
 #Contact-container {
-  height: 50vh;
+  height: 100vh;
+  background-color:  #364f6b;
 }
 
 .Contact-Header {
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
-  padding-top: 5%;
+  padding: 4%;
+  color: white;
 }
