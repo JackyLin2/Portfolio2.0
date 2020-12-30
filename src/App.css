@@ -200,6 +200,7 @@
 #Contact-container {
   height: 100vh;
   background-color:  #364f6b;
+  font-family: "Montserrat";
 }
 
 .Contact-Header {
@@ -240,6 +241,26 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input{
+input[type=e-mail], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   
 }
+
+.submit {
+  width: 100%;
+  padding: 12px;
+ 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
