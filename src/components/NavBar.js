@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../images/logo.png'
 
 
 
@@ -10,7 +11,7 @@ class NavBar extends React.Component {
             <div id="nav-container">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#top-container">JL</a>
+                        <a className="navbar-brand" href="#top-container">  JL </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

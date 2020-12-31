@@ -83,12 +83,10 @@ class Contact extends React.Component {
             </div>
             <br/>
            <div className="footer-icon">
-            <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/" target="_blank" rel="noopener noreferrer">  <i class=" fab fa-linkedin fa-2x" ></i></a>
+          <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/" target="_blank" rel="noopener noreferrer">  <i class=" fab fa-linkedin fa-2x" ></i></a>
             <a href="https://jacky-jia-lin.medium.com/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-medium fa-2x" ></i> </a>
             <a href="https://github.com/JackyLin2" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github-square fa-2x" ></i></a>
-            
             </div>
-           
          </div>
       );
    }
