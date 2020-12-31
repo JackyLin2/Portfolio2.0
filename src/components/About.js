@@ -15,7 +15,7 @@ class About extends React.Component {
                 </div>
                 
                 <div className="knowledge-section">
-                    <h3 className="knowledge-header" > KNOWLEDGE IN:  </h3>
+                    <h3 className="knowledge-header" > Technology:  </h3>
                  
                     <i className="icon fab fa-js-square fa-5x">  <span style={{ fontSize:"25px" }}>  Javascript </span>    </i>
                     <i className="icon fab fa-react fa-5x">  <span style={{ fontSize:"25px" }}>  React </span></i>
@@ -24,8 +24,8 @@ class About extends React.Component {
                     <i className="icon fab fa-css3-alt fa-5x">  <span style={{ fontSize:"25px" }}>  CSS3 </span></i>
                     <i className="icon fab fa-bootstrap fa-5x">  <span style={{ fontSize:"25px" }}>  BootStrap </span></i>
                     <i className="icon fab fa-github fa-5x">  <span style={{ fontSize:"25px" }}>  Github </span></i>
-                   
-             
+                    <i className="icon fab fa-node fa-5x">  <span style={{ fontSize:"25px" }}>  NodeJS </span></i>
+                    <i className="icon fas fa-database fa-5x">  <span style={{ fontSize:"25px" }}>  SQL </span></i>
                 </div>
             </div>
         );

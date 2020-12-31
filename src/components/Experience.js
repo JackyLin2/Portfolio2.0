@@ -40,7 +40,9 @@ class Experience extends React.Component {
                       </li>
                   </ul>
                </div>
-               <button type="button" className="btn btn-outline-primary">Download Resume</button>
+               <a href="https://docs.google.com/document/d/16mhSl48oOh8uPRI-GrM9UzAjLlLkDQ-Wi6lRBaEEwV4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+               <button type="button" className="btn btn-outline-secondary"> View Resume</button>
+               </a>
             </div>
          </div>
       );

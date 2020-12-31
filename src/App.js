@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Project from './components/Project'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Project/>
         <Experience/>
         <Contact/>
+        <Footer/>
     </div>
   );
 }

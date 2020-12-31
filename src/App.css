@@ -17,7 +17,12 @@
 #top-container {
   padding: 380px;
   background-color: #364f6b;
+  background-image: url("https://assets.evcdn.net/pim-assets-images/26862/5df8d3b068199.jpeg") ;
   color: white;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* NavBar */
@@ -91,7 +96,7 @@
 
 
 .icon {
-  padding: 0% 5% 2%;
+  padding: 0% 5% 3%;
 
 }
 
@@ -191,10 +196,6 @@
   font-size: 1.25rem;
 }
 
-.btn:hover{
-  background-color: black;
-}
-
 /* Contact */
 
 #Contact-container {
@@ -207,8 +208,16 @@
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
-  padding: 4%;
+  padding: 4% 0% 2%;
   color: white;
+}
+
+.Contact-h2{
+  font-family: "Montserrat";
+  color: white;
+  text-align: left;
+  padding: 0% 15.5% 2%;
+  font-size: 1.5rem;
 }
 
 /* Contact Me Form */
@@ -256,7 +265,7 @@ input[type=e-mail], select, textarea {
 .submit {
   width: 100%;
   padding: 12px;
- 
+
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -264,3 +273,19 @@ input[type=e-mail], select, textarea {
   resize: vertical;
 }
 
+.footer-icon{
+  text-align: center;
+  padding: 25px;
+}
+
+i{
+  padding: 0px 25px;
+}
+
+/* Footer Container */
+
+#footer-container{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
