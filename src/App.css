@@ -82,9 +82,9 @@
 
 .profile-picture {
   border-radius: 50%;
-  width: 30%;
+  padding: 10% 3% ;
   float: right;
-  padding-top: 6%;
+ 
 }
 
 .knowledge-header {
@@ -294,4 +294,5 @@ i{
   text-align: center;
   background-color: #212529;
   color: white;
+  font-family: "Montserrat";
 }
