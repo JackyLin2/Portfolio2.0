@@ -296,3 +296,7 @@ i{
   color: white;
   font-family: "Montserrat";
 }
+
+@media (max-width: 600px){
+
+}
