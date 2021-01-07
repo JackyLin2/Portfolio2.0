@@ -297,6 +297,303 @@ i{
   font-family: "Montserrat";
 }
 
-@media (max-width: 600px){
+@media screen and (min-width:320px) and (max-width:640px){
+  /* Header */
+.name {
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  padding-bottom: 20px;
+  font-weight: normal;
+  text-align: center;
+}
 
+.position {
+  font-family: 'Cinzel', serif;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#top-container {
+  height: 100vh;
+  background-color: #364f6b;
+  color: white;
+  
+}
+
+.intro{
+
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+/* NavBar */
+
+.navbar {
+  font-family: "Montserrat";
+  padding-bottom: 0 0 4.5rem;
+  position: sticky;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubunty";
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* About Component */
+
+#About-Component {
+ 
+}
+
+#about-container {
+  width: 60%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+}
+
+
+.about-me {
+  text-align: left;
+  padding: 70px 0px 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.about-paragrah {
+  font-family: "Montserrat";
+  line-height: 2;
+  padding-right: 35%;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  padding: 10% 3% ;
+  float: right;
+ 
+}
+
+.knowledge-header {
+  padding-bottom: 2%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+}
+
+.knowledge-section {
+  padding-top: 100px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+
+.icon {
+  padding: 0% 5% 3%;
+
+}
+
+/* Project */
+
+#project-container {
+  background-color: #394867;
+  color: white;
+  padding: 330px;
+}
+
+.project-header {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Experience */
+
+#experience-container {
+  height: 100vh;
+}
+
+#the-list-here{
+  text-align: center;
+  padding: 70px;
+}
+
+.education-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 630%;
+  font-weight: bolder;
+  margin: 0px 0px 3%;
+  color: #9ba4b4;
+  line-height: 0.78;
+  text-indent: -7px;
+  
+}
+
+.line-under {
+  background-color:#9ba4b4;
+  height: 5px;
+  width: 29.375%;
+  margin: 0 auto
+}
+
+
+#the-list-here p{
+  font-size: 230%;
+  color: #9ba4b4;
+  margin: 2% 0px 0px;
+  line-height: 1.875;
+   
+}
+
+.school-list{
+  margin: 20px ;
+  line-height: 1.875;
+  padding: 0px;
+  line-height: 2;
+  color: #9ba4b4;
+  font-family: "Montserrat";
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+
+.experience-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 630%;
+  font-weight: bolder;
+  margin: 50px 0px 3%;
+  color:  #394867;
+  line-height: 0.78;
+  text-indent: -7px;
+}
+
+
+.green{
+  background: #394867;
+}
+
+.experience-list{
+  margin: 20px ;
+  line-height: 1.875;
+  padding: 0px;
+  line-height: 2;
+  font-family: "Montserrat";
+  list-style-type: none;
+  color: #394867;
+  font-size: 1.25rem;
+}
+
+/* Contact */
+
+#Contact-container {
+  height: 100vh;
+  background-color:  #364f6b;
+  font-family: "Montserrat";
+}
+
+.Contact-Header {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  padding: 4% 0% 2%;
+  color: white;
+}
+
+.Contact-h2{
+  font-family: "Montserrat";
+  color: white;
+  text-align: left;
+  padding: 0% 15.5% 2%;
+  font-size: 1.5rem;
+}
+
+/* Contact Me Form */
+
+.container {
+  border-radius: 5px;
+  background-color: #A1ACBD;
+  padding: 20px;
+  color: white;
+ 
+}
+
+input[type=submit] {
+  background-color: #3D4856;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=e-mail], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+.submit {
+  width: 100%;
+  padding: 12px;
+
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.footer-icon{
+  text-align: center;
+  padding: 25px;
+}
+
+i{
+  margin: 0px 20px 0px;
+}
+
+/* Footer Container */
+
+#footer-container{
+  text-align: center;
+  background-color: #212529;
+  color: white;
+  font-family: "Montserrat";
+}
 }
